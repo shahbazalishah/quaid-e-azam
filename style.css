@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+font-size: 60px;
+font-weight: bold;
+color: brown;
+text-transform: uppercase;
+}
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+}
+.image_container{
+    border-radius: 40%;
+    overflow: hidden;
+}
+.image_container,img {
+height: 300px;
+width: 300px;
+}
+.hero{
+    margin-top: 50px;
+}
+.hero h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.bio_graphy{
+    margin-top: 50px;
+}
+.bio_graphy h3{
+    margin-bottom: 20px;
+}
+.bio_graphy ul{
+    margin-left: 50px;
+}
+.bio_graphy li{
+    margin-bottom: 15px;
+}
+.footer{
+    margin: 40px 0 ;
+    text-align: end;
+}
